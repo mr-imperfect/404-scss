@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 1300px) {
+  header .heading {
+    width: 100%;
+  }
+  header .heading h3 {
+    margin: 30px;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1299px) {
+  header .heading {
+    width: 100%;
+  }
+  header .heading h3 {
+    margin: 25px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 399px) {
+  header .heading {
+    width: 100%;
+  }
+  header .heading h3 {
+    margin: 20px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 639px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .left-section {
+    max-width: 700px;
+    margin: 0 50px;
+  }
+  section .left-section img {
+    width: 100%;
+    height: auto;
+  }
+  section .right-section {
+    margin: 100px 100px;
+  }
+  section .right-section h2 {
+    font-size: 35px;
+    margin-top: -100px;
+    color: #ff1500;
+  }
+  section .right-section p {
+    font-size: 20px;
+  }
+  section .right-section button {
+    padding: 17px 32px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #5900ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+}
+
+@media (max-width: 399px) {
+  section {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .left-section {
+    max-width: 700px;
+    margin: 0 50px;
+  }
+  section .left-section img {
+    width: 100%;
+    height: auto;
+  }
+  section .right-section {
+    margin: 150px 100px;
+  }
+  section .right-section h2 {
+    font-size: 25px;
+    margin-top: -100px;
+    color: #ff1500;
+  }
+  section .right-section p {
+    font-size: 19px;
+  }
+  section .right-section button {
+    padding: 17px 32px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #5900ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 999px) {
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .left-section {
+    max-width: 700px;
+    margin: 0 50px;
+  }
+  section .left-section img {
+    width: 100%;
+    height: auto;
+  }
+  section .right-section {
+    margin: 100px 100px;
+  }
+  section .right-section h2 {
+    font-size: 45px;
+    margin-top: -100px;
+    color: #ff1500;
+  }
+  section .right-section p {
+    font-size: 22px;
+  }
+  section .right-section button {
+    padding: 15px 22px;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: #5900ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+  section {
+    min-height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .left-section {
+    max-width: 700px;
+    margin: 0 50px;
+  }
+  section .left-section img {
+    width: 100%;
+    height: auto;
+  }
+  section .right-section {
+    margin: 0 100px;
+  }
+  section .right-section h2 {
+    font-size: 45px;
+    margin-top: -100px;
+    color: #ff1500;
+  }
+  section .right-section p {
+    font-size: 22px;
+  }
+  section .right-section button {
+    padding: 17px 32px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #5900ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+}
+
+@media (min-width: 1300px) {
+  section {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 80vh;
+  }
+  section .left-section {
+    width: 800px;
+    height: 400px;
+    margin: 0 100px;
+  }
+  section .left-section img {
+    width: 100%;
+    height: auto;
+  }
+  section .right-section {
+    margin: 0 100px;
+  }
+  section .right-section h2 {
+    font-size: 45px;
+    margin-top: -100px;
+    color: #ff1500;
+  }
+  section .right-section p {
+    font-size: 22px;
+  }
+  section .right-section button {
+    padding: 17px 32px;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #5900ff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+
+@include respond-above(lg){
+header{
+
+.heading{
+width: 100%;
+
+h3{
+    margin:30px;
+    font-size: 35px
+}
+}
+
+    
+}
+}   
+
+@include respond-below(lg){
+    header{
+    
+    .heading{
+    width: 100%;
+    
+    h3{
+        margin:25px;
+        font-size:30px
+    }
+    }
+    
+        
+    }
+    }   
+
+    @include respond-below(xs){
+        header{
+        
+        .heading{
+        width: 100%;
+        
+        h3{
+            margin:20px;
+            font-size: 22px
+        }
+        }
+        
+            
+        }
+        }   
